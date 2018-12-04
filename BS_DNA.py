@@ -47,3 +47,7 @@ print(sc['A'], sc['C'], sc['G'], sc['T'])
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
+
+### solution from hejian @20181204
+>>> seq_list=list(seq)
+>>> print(str_list.count("A"),str_list.count("C"),str_list.count("G"),str_list.count("T"))
