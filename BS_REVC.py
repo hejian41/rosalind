@@ -43,3 +43,21 @@ with open('rosalind_revc.txt', 'r') as f:
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
+
+
+# solution from hejian @20181204
+dnatxt = open("./rosalind_revc.txt", mode="r")
+dnaseq = dnatxt.read()
+dnaseq = dnaseq.replace("A","t")
+dnaseq = dnaseq.replace("G","c")
+dnaseq = dnaseq.replace("C","g")
+dnaseq = dnaseq.replace("T","a")
+dnaseq = dnaseq.upper()
+dnaseq_rev = ''.join(reversed(dnaseq))
+print(dnaseq_rev)
+
+
+
+
+
+
