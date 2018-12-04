@@ -58,3 +58,22 @@ fib(5, 3)
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
 
+# solution from hejian @20181204
+### month:           1, 2, 3, 4, 5,  6 ...
+### 1ittle rabbits:  1, 0, 3, 3, 12, 21...
+### adult rabbits:   0, 1，1, 4,  7, 19... 
+### total rabbits:   1, 1, 4, 7, 19, 40...
+def rabbit(i, j):
+    if (i==1 or i==2):
+        return 1
+    else:
+        return rabbit(i-1, j)+ rabbit(i-2, j)*j
+
+print(rabbit(i=28, j=3))
+
+3855438727
+
+
+
+
+
