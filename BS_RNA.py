@@ -35,3 +35,10 @@ print(tt)
 #########################################################
 # you may add your solutions below
 # Don't hesitate to send pull request for your new solution 
+
+# solution from hejian @20181204
+>>> dna = open("./rosalind_rna.txt","r")
+>>> seq=dna.read()
+>>> rnaseq=seq.replace("T","U")
+>>> print(rnaseq)
+>>> dna.close()
